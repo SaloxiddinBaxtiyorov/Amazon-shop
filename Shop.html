@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./Shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+   height: 3000px;
+}
+.wrapper{
+    box-sizing: border-box;
+    background-image: url(./hand-holds-hanging-gray-running-sneakers-blue-pastel-background-hand-with-new-sport-shoe-stability-cushion-running-shoes-close-up_179369-788.jpg);
+    background-position: cover;
+    background-size: cover;
+    height: 750px;
+}
+.logo{
+    width: 100px;
+    margin: 45px 90px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 25px;
+    
+}
+ul li{
+   margin-left: 40px;
+   list-style: none;
+}
+ul li a{
+    position: relative;
+    text-decoration: none;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+}
+a:hover:after{
+    width: 100%;
+}
+a:hover{
+    color: orange;
+}
+h4 span{
+    margin: 10px;
+}
+h1{
+    color: black;
+    font-size: 60px;
+}
+p{
+    color: black;
+    margin-top: 30px;
+}
+.text{
+    margin-left: 80px;
+    margin-top: 200px;
+}
+h4{
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: orange;
+    transition: 1s;
+}
+h4:hover{
+    background-color: aquamarine;
+}
+.images-box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+.images-box2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.wear{
+    background-position: cover;
+    background-size: cover;
+    width: 300px;
+    text-align: center;
+    transition: 0.5s;
+}
+.wear2{
+    background-position: cover;
+    background-size: cover;
+    width: 280px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h3{
+    position: relative;
+    text-decoration: none;
+    margin-top: 50px;
+}
+h3:after{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 3px;
+    width: 60px;
+    left: 0;
+    bottom: -10px;
+    margin-left: 730px;
+}
+h3:hover:after{
+    width: 60px;
+}
+.text1{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 140px;
+}
+.text2{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 205px;
+}
+.text3{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 225px;
+}
+.text4{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 230px;
+}
+.text5{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 141px;
+}
+.text6{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 230px;
+}
+.text7{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 230px;
+}
+.text8{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 230px;
+}
+.text9{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 145px;
+}
+.text10{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 290px;
+}
+.text11{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 290px;
+}
+.text12{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 280px;
+}
+.text13{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left:140px;
+}
+.text14{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 283px;
+}
+.text15{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 283px;
+}
+.text16{
+    display: inline-block;
+    font-size: 15px;    
+    color: grey;
+    margin-left: 283px;
+}
+.m{
+    display: inline-block;
+    margin-left: 100px;
+}
+.wear:hover{
+    transform: translateY(-10px);
+}
+.none{
+    text-align: center;
+}
+.watch{
+    background-image: url(./3066681_amazonprimevan_377655.png);
+    width: 1508px;
+    height: 600px;
+    background-position: cover;
+    background-size: cover;
+}
+.about{
+    text-align: center;
+}
+.about1{
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    margin: 10px;
+}
+.about2{
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    margin: 10px;
+}
+.about3{
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    margin: 10px;
+}
+div i{
+    color: orange;
+    margin-top: 20px;
+}
+.person{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.tolov1{
+    width: 150px;
+    height: 60px;
+    margin: 30px;
+}
+.tolov2{
+    width: 140px;
+    height: 100px;
+    margin: 30px;
+}
+.tolov3{
+    width: 150px;
+    height: 60px;
+    margin: 30px;
+}
+.tolov4{
+    width: 100px;
+    height: 60px;
+    margin: 30px;
+}
+.tolov5{
+    width: 100px;
+    height: 60px;
+    margin: 30px;
+}
+.paypal{
+    text-align: center;
+}
+.xato{
+    width: 1515px;
+    height: 300px;
+}
+.black{
+    background-color: black;
+    width: 1518px;
+    height: 270px;
+}
+.foot{
+    color: white;
+}
+.foot-text1{
+    color: white;
+    padding-top: 50px;
+    margin-left: 90px;
+}
+.foot-text2{
+    color: grey;
+    margin-left: 90px;
+    font-size: 15px;
+}
+.black i{
+    font-size: 70px;
+    padding-top: 30px;
+    margin-left: 80px;
+}
+.google{
+    width: 130px;
+    height: 50px;
+    margin-left: 80px;
+    padding-top: 25px;
+    display: inline-block;
+}
+.app{
+    width: 120px;
+    height: 35px;
+    display: inline-block;
+    padding-bottom: 7px;
+}
+.amazon-logo{
+    width: 100px;
+    height: 100px;
+}
+.svg{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 400px;
+}
+.feet{
+    color: white;
+    text-align: center;
+    color: grey;
+}
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+      <div class="main">
+        <img src="./Amazon_logo.svg.png"  class="logo" alt="xatolik">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="./Products.html">PRODUCTS</a></li>
+            <li><a href="./5darsUy2.html">NECESSARY</a></li>
+            <li><a href="./Airways.html">AKKAUNT</a></li>
+            <span style='font-size:30px;'>&#128722;</span>
+        </ul>
+      </div>
+      <div class="text">
+        <h1>Hello World Welcome<br>to Amazon.uz site.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing sit amet, consecteturbr <br> 
+            adipisicingsit amet, consectetur adipisicing.</p>
+            <h4>Explore Now<span style='font-size:20px;'>&#128284;</span></h4>
+      </div>
+    </div>
+    <div class="images-box">
+        <img class="wear" src="./191372306_1463170244030417_1691264675328965548_n.jpg" alt="xato">
+        <img class="wear" src="./mens-wear-500x500.webp" alt="xato">
+        <img class="wear" src="./fashion-beauty-barbershop-concept-mens-wear-young-handsome-guy-checkered-shirt-glasses-stylish-male-casual-clothes-bearded-217656931.jpg" alt="xato"> <br>
+      </div>
+      <h3>Sifatli kiyimlar 100%</h3>
+      <div class="images-box2">
+        <img class="wear wear2" src="./b26d05f4c1ec09cffdbb2273c7323bda.jpg" alt="xato">
+        <img class="wear wear2" src="./31fabcbe7b6524a6c22224b6b51b1460.jpg" alt="xato">
+        <img class="wear wear2" src="./1de0e6bd585334f3ec05938b65b9df05.jpg" alt="xato">
+        <img class="wear wear2" src="./jd_product_list.webp" alt="xato">
+    </div>
+    <span class="text1">Beautiful clothes</span>
+    <span class="text2">Sport clothes</span>
+    <span class="text3">Sport clothes</span>
+    <span class="text4">Puma clothes</span> <br>
+    <span class="text5">&#11088;&#11088;&#11088;&#11088;</span>
+    <span class="text6">&#11088;&#11088;&#11088;&#11088;</span>
+    <span class="text7">&#11088;&#11088;&#11088;&#11088;</span>
+    <span class="text8">&#11088;&#11088;&#11088;&#11088;</span> <br>
+    <span class="text9">$60</span>
+    <span class="text10">$70</span>
+    <span class="text11">$120</span>
+    <span class="text12">$100</span>
+
+      <h3>Puma Brendi 100%</h3>
+      <div class="images-box2">
+        <img class="wear wear2" src="./adidas1.jpg" alt="xato">
+        <img class="wear wear2" src="./adidas2.jpg" alt="xato">
+        <img class="wear wear2" src="./adidas3.jpg" alt="xato">
+        <img class="wear wear2" src="./adidas4.jpg" alt="xato">
+    </div>
+    <span class="text1">Beautiful clothes</span>
+    <span class="text2">Sport clothes</span>
+    <span class="text3">Sport clothes</span>
+    <span class="text4">Puma clothes</span> <br>
+    <span class="text5">&#11088;&#11088;&#11088;&#11088;</span>
+    <span class="text6">&#11088;&#11088;&#11088;&#11088;</span>
+    <span class="text7">&#11088;&#11088;&#11088;&#11088;</span>
+    <span class="text8">&#11088;&#11088;&#11088;&#11088;</span> <br>
+    <span class="text9">$60</span>
+    <span class="text10">$70</span>
+    <span class="text11">$120</span>
+    <span class="text12">$100</span>
+    
+    
+    <div class="images-box2">
+      <img class="wear wear2" src="./adidas5.jpg" alt="xato">
+      <img class="wear wear2" src="./adidas6.webp" alt="xato">
+      <img class="wear wear2" src="./adidas7.webp" alt="xato">
+      <img class="wear wear2" src="./adidas8.webp" alt="xato">
+    </div>
+      <span class="text1">Beautiful clothes</span>
+      <span class="text2">Sport clothes</span>
+      <span class="text3">Sport clothes</span>
+      <span class="text4">Puma clothes</span> <br>
+      <span class="text5">&#11088;&#11088;&#11088;&#11088;</span>
+      <span class="text6">&#11088;&#11088;&#11088;&#11088;</span>
+      <span class="text7">&#11088;&#11088;&#11088;&#11088;</span>
+      <span class="text8">&#11088;&#11088;&#11088;&#11088;</span> <br>
+      <span class="text13">$120</span>
+      <span class="text14">$300</span>
+      <span class="text15">$150</span>
+      <span class="text16">$450</span>
+
+      
+      <div class="watch">
+        <!-- <h1 class="">Amazon delivers everything you buy anywhere</h1> -->
+      </div>
+
+
+      <div class="about">
+        <div class="about1">
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <i class="fa-solid fa-fire-flame-curved"></i>  
+          <p>Lorem ipsum dolor sit amet <br>
+            consectetur adipisicing elit <br>
+            sd Dignissimos blanditiis qu <br>
+            similique id provident doss <br>
+             quisquam.</p>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star-half-stroke"></i> <br>
+             <img class="person" src="./Personnel image 4483.jpg" alt="xatolik">
+             <p>Mister Bill</p>
+        </div>
+
+
+
+        <div class="about2">
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <p>Lorem ipsum dolor sit amet <br>
+            consectetur adipisicing elit <br>
+            sd Dignissimos blanditiis qu <br>
+            similique id provident doss <br>
+             quisquam.</p>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star-half-stroke"></i> <br>
+             <img class="person" src="./handsome-man-black-suit-white-shirt-posing-studio-attractive-guy-fashion-hairstyle-confident-man-short-beard-125019349.jpg" alt="xatolik">
+            <p>Mister Smith</p>
+            </div>
+
+
+
+        <div class="about3">
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <p>Lorem ipsum dolor sit amet <br>
+            consectetur adipisicing elit <br>
+            sd Dignissimos blanditiis qu <br>
+            similique id provident doss <br>
+             quisquam.</p>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star-half-stroke"></i> <br>
+             <img class="person" src="./images.jpg" alt="xatolik">
+             <p>Mister John</p>
+        </div>
+      </div>
+      <div class="paypal">
+        <img class="tolov1" src="./PayPal.svg.png" alt="xatolik">
+        <img class="tolov2" src="./article-original.png" alt="xatolik">
+        <img class="tolov3" src="./coca-cola-logo-black-and-white.png" alt="xatolik">
+        <img class="tolov4" src="./system_humo_c.png" alt="xatolik">
+        <img class="tolov5" src="./Samsung-Logo.png" alt="xatolik">
+      </div>
+      
+      
+      
+    <footer>
+      <div class="black">
+        <p class="foot">
+          <p class="foot-text1">Dowload App</p>  
+          <p class="foot-text2">Dowload App for Android and Ios mobile </p>
+          <img class="google" src="./image.png" alt="xato">
+          <img class="app" src="./1280px-Download_on_the_App_Store_Badge_IT_RGB_blk.svg.png" alt="xato">
+          <img class="svg" src="./Amazon_logo.svg.png" alt="xato">
+          <p class="feet">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quasi distinctio perspiciatis eligendi magni beatae dicta voluptatem maiores ipsam facere, ullam obcaecati, iusto ipsum soluta consectetur quis minus? Quas voluptatibus assumenda doloremque inventore nulla quia recusandae enim aperiam odio id perferendis expedita corporis corrupti consequuntur, atque impedit ad eos. Ea?
+          </p>
+        </p>
+      </div>
+    </footer>
+</body>
+</html>
